@@ -1,0 +1,18 @@
+[
+    {
+      "OldSymbol": "a",
+      "NewSymbol": "x"
+    },
+    {
+      "OldSymbol": "h",
+      "NewSymbol": "z"
+    },
+    {
+      "OldSymbol": "l",
+      "NewSymbol": "o"
+    },
+    {
+      "OldSymbol": "e",
+      "NewSymbol": "f"
+    }
+]

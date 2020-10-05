@@ -1,0 +1,25 @@
+<div class="cipherComponent">
+    <p>Зашифровать сообщение:</p>
+        <div class="form-group">
+            <label for="inputTextForCipher">Введите сообщение для шифрования:</label>
+            <input type="text" class="form-control" name="text" [(ngModel)]="inputText" id="inputTextForCipher"/>
+        </div>
+        <button (click)="GetCipher(inputText)" class="btn btn-primary">Зашифровать</button>
+    <hr>
+       
+<p>Список запросов на шифрование:</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Зашифрованное сообщение</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let str of recordForCipher">
+            <td >{{str.Text}}</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
